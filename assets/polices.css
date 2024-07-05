@@ -1,0 +1,47 @@
+@font-face { 
+font-family: 'Roboto';
+src: url('../fonts/Roboto-Black.ttf') format('ttf');
+src: url('../fonts/Roboto-BlackItalic.ttf') format('ttf');
+src: url('../fonts/Roboto-Bold.ttf') format('ttf');
+src: url('../fonts/Roboto-BoldItalic.ttf') format('ttf');
+src: url('../fonts/Roboto-Italic.ttf') format('ttf') ;
+src: url('../fonts/Roboto-Light.ttf') format('ttf');
+src: url('../fonts/Roboto-LightItalic.ttf') format('ttf');
+src: url('../fonts/Roboto-Medium.ttf') format('ttf');
+src: url('../fonts/Roboto-MediumItalic.ttf') format('ttf');
+src: url('../fonts/Roboto-Regular.ttf') format('ttf');
+src: url('../fonts/Roboto-Thin.ttf') format('ttf');
+src: url('../fonts/Roboto-ThinItalic.ttf') format('ttf');
+}
+
+/*///CARRACTERES & POLICES (li, a, ...)///*/
+
+li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/*///TITRES (h1, h2, h3, h4, h5, h6)///*/
+
+h1 {
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family:"Roboto";
+    font-style:normal;
+    font-weight:lighter;
+    font-size: 120px;
+    font-stretch:expanded;
+    opacity: 90%;
+    filter: blur(3px);
+}
+
+h1:hover {
+    color: rgb(0, 255, 242);
+    filter: blur(2px);
+
+}
+
