@@ -24,7 +24,7 @@
         </div>
 
         <video id="background-video" autoplay loop>
-                <source src="./video/presentation.mp4" type="video/mp4">
+                <source src="./videos/presentation.mp4" type="video/mp4">
         </video>
         
     <div class="content">
@@ -62,5 +62,6 @@
 
   </script>
 
-    </header>
-
+        </header>
+    </body>
+    </html>
